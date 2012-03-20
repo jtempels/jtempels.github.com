@@ -131,7 +131,8 @@ $(document).ready(function() {
 					break;
 				case "Videos": 
 					console.log ("Videos was clicked!");
-					submenuHeadClick(this);
+					//submenuHeadClick(this);
+					menuHeadClick(this);
 					hideOthers(this);
 					$(".VideosContent").show(1000);
 					break;
