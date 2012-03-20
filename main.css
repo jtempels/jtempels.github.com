@@ -10,6 +10,8 @@ body {
 	
 }
 
+
+
 #header {
 	font-size: 2em;
 	margin-left: 2.6em;
@@ -18,7 +20,10 @@ body {
 	font-family:"American Typewriter", "Courier New";
 }
 
-
+#stuff {
+	min-width:800px;
+	min-height:550px;	
+}
 
 #sideMenu {
 	font-size:18px;
@@ -30,7 +35,8 @@ body {
 	list-style:none;
 	cursor:pointer;
 	width:175px;
-	font-family: "Courier New", Courier, monospace;	
+	font-family: "Courier New", Courier, monospace;
+	
 }
 
 #contentDiv {
