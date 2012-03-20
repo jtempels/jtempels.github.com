@@ -133,6 +133,7 @@ $(document).ready(function() {
 					console.log ("Videos was clicked!");
 					submenuHeadClick(this);
 					hideOthers(this);
+					$(".VideosContent").show(1000);
 					break;
 				case "Pictures": 
 					console.log ("Pictures was clicked!");

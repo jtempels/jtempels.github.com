@@ -42,12 +42,23 @@ body {
 	font-family: "Courier New", Courier, monospace;	
 }
 
-#innerContainer, .HomeContent, .AboutUsContent, .BiosContent {
+#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent {
 	
 	position:relative;
 	max-width:100%;
 	font-family: "American Typewriter", Courier, monospace;
 	line-height:1.5em;
+}
+
+.liveSketchL {
+	text-align: left;
+	margin:0;
+}
+
+.liveSketchR {
+	text-align:right;	
+	margin:0;
+
 }
 
 .HomeContent {
@@ -58,7 +69,7 @@ body {
 	height:498px;	
 }
 
-.AboutUsContent, .BiosContent {
+.AboutUsContent, .BiosContent, .VideosContent {
 	float:left;
 	background-color:#FFF;
 	min-width:91%;
