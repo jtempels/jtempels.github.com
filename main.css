@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	width:90%;
+	
+}
+
+#header {
+	font-size: 2em;
+	margin-left: 2.6em;
+	margin-top: .5em;
+	margin-bottom: .1em;
+	font-family:"American Typewriter", "Courier New";
+}
+
+
+
+#sideMenu {
+	font-size:18px;
+	float:left;
+	margin-left: 1.25em;
+	margin-top: .05em;
+	margin-right: .5em;
+	line-height: 1.8em;
+	list-style:none;
+	cursor:pointer;
+	width:175px;
+	font-family: "Courier New", Courier, monospace;	
+}
+
+#contentDiv {
+	float:left;
+	margin-left: 2.5em;
+	width: 800px;
+	height: 550px;
+	margin-bottom: 6em;
+	font-family: "Courier New", Courier, monospace;	
+}
+
+#innerContainer, .HomeContent, .AboutUsContent, .BiosContent {
+	
+	position:relative;
+	max-width:100%;
+	font-family: "American Typewriter", Courier, monospace;
+	line-height:1.5em;
+}
+
+.HomeContent {
+	border:25px solid	;
+	background-image:url(HomePic.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:498px;	
+}
+
+.AboutUsContent, .BiosContent {
+	float:left;
+	background-color:#FFF;
+	min-width:91%;
+	max-height:100%;
+	line-height: 1em;
+	margin-bottom:2em;
+	display:none;	
+}
+
+.polaroid, .polaroidSelected { 
+	width:184px; 
+	height:188px; 
+	background-image:url(polaroid-bg2.png); 
+	background-size:contain;
+	background-repeat:none;
+	margin-top:15px;	
+}
+
+.polaroidSelected {
+
+	height: 366px;
+    width: 368px;
+	text-align:center;
+}
+
+.polaroidImg { 
+	text-align:center;
+	width:169px; 
+	height:137.5px; 
+	margin:12.5px 6px 6px 6px;
+}
+
+.polaroidImgSelected { 
+    width: 338px;
+	height: 275px;
+	margin: 25px 15px 15px 15px;
+}
+
+.bioName {
+	text-align:center;
+	font-family:"American Typewriter", Georgia, serif;
+	font-size:.9em;
+	color:#2E2E2E;
+	margin-top:6px;
+	margin-bottom:6px
+}
+
+.memberBio {
+	font-family:"American Typewriter", Georgia, serif;
+	font-size:.9em;
+	display:none;
+	width: 42%;
+	float:left;	
+	
+}
+
+#MarinaPic, #NiccoPic, #AlexPic, #JessePic, #FletcherPic {
+	float:left;
+	margin:25px;
+}
+
+#JessePic, #FletcherPic {
+	float:left;
+	margin-left:70px;
+}
+
+.menuHeadSelected {
+	color: red;
+	cursor:pointer;
+}
+.subItemSelected {
+	color: red;
+	cursor:pointer;
+}
+
+.subMenu, .subMenuSelected {
+	font-size:.8em;
+	margin-left: -2em;
+	list-style:none;
+	line-height:2em;
+	margin-right:0;
+	list-style:none;
+	cursor:pointer;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.subMenuSelected {
+	display:block;
+	cursor:pointer;	
+}
+
+.hoverOn {
+	color: red;	
+}
