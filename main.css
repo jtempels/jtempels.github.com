@@ -16,7 +16,7 @@ body {
 	font-size: 2em;
 	margin-left: 2.6em;
 	margin-top: .5em;
-	margin-bottom: .1em;
+	margin-bottom: .15em;
 	font-family:"American Typewriter", "Courier New";
 	min-width:1000px;
 }
@@ -30,7 +30,7 @@ body {
 	font-size:18px;
 	float:left;
 	margin-left: 1.25em;
-	margin-top: .05em;
+	margin-top: .2em;
 	margin-right: .5em;
 	line-height: 1.8em;
 	list-style:none;
@@ -43,7 +43,7 @@ body {
 #contentDiv {
 	float:left;
 	margin-left: 2.5em;
-	width: 800px;
+	width: 1000px;
 	height: 550px;
 	margin-bottom: 6em;
 	font-family: "Courier New", Courier, monospace;
@@ -53,9 +53,14 @@ body {
 #innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
 	
 	position:relative;
-	max-width:100%;
+	max-width:80%;
 	font-family: "American Typewriter", Courier, monospace;
 	line-height:1.5em;
+}
+
+.PicturesContent{
+	max-width:100%;
+	width:1000px;	
 }
 
 .liveSketchL {
@@ -71,10 +76,7 @@ body {
 
 .HomeContent {
 	border:25px solid	;
-	background-image:url(HomePic.jpg);
-	background-size:contain;
-	background-repeat:no-repeat;
-	height:498px;	
+	max-width:90%;
 }
 
 .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
