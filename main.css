@@ -22,7 +22,7 @@ body {
 
 #stuff {
 	min-width:800px;
-	min-height:550px;	
+
 }
 
 #sideMenu {
@@ -45,7 +45,8 @@ body {
 	width: 800px;
 	height: 550px;
 	margin-bottom: 6em;
-	font-family: "Courier New", Courier, monospace;	
+	font-family: "Courier New", Courier, monospace;
+	padding: 0px;
 }
 
 #innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent {
