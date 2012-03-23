@@ -86,13 +86,31 @@ $(document).ready(function() {
 		bioClick(temp)});
 			
 	
-		
-		
-	
 	$(".menuHead, .subMenuItem").hover(function() {		
 		$(this).toggleClass("hoverOn");
 	});
 	
+	$(".fancybox-thumb").fancybox({
+		prevEffect	: 'none',
+		nextEffect	: 'none',
+		fitToView: true,
+		helpers	: {
+			title	: {
+				type: 'outside'
+			},
+			overlay	: {
+				opacity : 0.8,
+				css : {
+					'background-color' : '#000'
+				}
+			},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+		}
+	});
+
 	// Function to handle non submenu heads being clicked
 
 	
@@ -141,6 +159,7 @@ $(document).ready(function() {
 					console.log ("Pictures was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
+					$(".PicturesContent").show(1000);
 					break;
 				case "Reviews": 
 					console.log ("Reviews was clicked!");

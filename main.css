@@ -50,7 +50,7 @@ body {
 	padding: 0px;
 }
 
-#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent {
+#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
 	
 	position:relative;
 	max-width:100%;
@@ -77,7 +77,7 @@ body {
 	height:498px;	
 }
 
-.AboutUsContent, .BiosContent, .VideosContent {
+.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
 	float:left;
 	background-color:#FFF;
 	min-width:91%;
