@@ -78,6 +78,7 @@ function bioClick(me) { // bind click event to all images
 	}
 
 
+
 $(document).ready(function() {
 	$(".subMenu").hide(0);
 	$(".polaroid").click(function(){
