@@ -18,10 +18,11 @@ body {
 	margin-top: .5em;
 	margin-bottom: .1em;
 	font-family:"American Typewriter", "Courier New";
+	min-width:1000px;
 }
 
 #stuff {
-	min-width:800px;
+	min-width:2200px;
 
 }
 
