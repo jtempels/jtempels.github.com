@@ -167,6 +167,7 @@ $(document).ready(function() {
 					console.log ("Reviews was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
+					$(".ReviewsContent").show(1000);
 					break;
 				case "News": 
 					console.log ("News was clicked!");

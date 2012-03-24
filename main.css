@@ -50,7 +50,7 @@ body {
 	padding: 0px;
 }
 
-#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
+#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ReviewsContent {
 	
 	position:relative;
 	max-width:80%;
@@ -79,7 +79,7 @@ body {
 	max-width:90%;
 }
 
-.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ContactUsContent {
+.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ContactUsContent, .ReviewsContent {
 	float:left;
 	background-color:#FFF;
 	min-width:91%;
@@ -187,4 +187,21 @@ body {
 
 .hoverOn {
 	color: red;	
+}
+
+.reviewHeader {
+	font-size:2em;
+	font-style:!important;	
+	line-height:1em;
+}
+
+.reviewSig {
+	font-size:1em;	
+	margin-left:500px;
+}
+
+#innerContainer blockquote {
+	font-size:1.3em;
+	line-height:1em;
+	width:70%;	
 }
