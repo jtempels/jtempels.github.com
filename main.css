@@ -190,18 +190,17 @@ body {
 }
 
 .reviewHeader {
-	font-size:2em;
+	font-size:1.5em;
 	font-style:!important;	
 	line-height:1em;
 }
 
 .reviewSig {
 	font-size:1em;	
-	margin-left:500px;
+	margin-left:225px;
 }
 
 #innerContainer blockquote {
-	font-size:1.3em;
 	line-height:1em;
-	width:70%;	
+	width:50%;
 }
