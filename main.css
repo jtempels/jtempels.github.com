@@ -79,7 +79,7 @@ body {
 	max-width:90%;
 }
 
-.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent {
+.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ContactUsContent {
 	float:left;
 	background-color:#FFF;
 	min-width:91%;
@@ -87,6 +87,20 @@ body {
 	line-height: 1em;
 	margin-bottom:2em;
 	display:none;	
+}
+
+.ContactUsContent {
+	line-height: 3em;
+	margin-bottom:2em;
+	color:#000;
+	margin-top:2em;	
+		
+}
+
+.emailLink {
+	float:left;
+	margin-left: 20px;
+	margin-right:20px;	
 }
 
 .polaroid, .polaroidSelected { 

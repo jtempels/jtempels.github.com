@@ -80,6 +80,7 @@ function bioClick(me) { // bind click event to all images
 
 
 $(document).ready(function() {
+	
 	$(".subMenu").hide(0);
 	$(".polaroid").click(function(){
 		var temp = "#"+this.id;
@@ -130,6 +131,7 @@ $(document).ready(function() {
 					console.log ("Contact Us was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
+					$(".ContactUsContent").show(1000);
 					break;
 				case "AboutUs": 
 					console.log ("About Us was clicked!");
