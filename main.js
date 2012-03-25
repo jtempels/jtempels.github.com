@@ -1,6 +1,4 @@
 // JavaScript Document
-
-console.log("Hello There!!");
 var myElement = document.getElementById("menuDiv");
 var selected = null;
 var subSelected = null;
@@ -24,7 +22,6 @@ function submenuHeadClick (me) {
 		}
 		selected = me;
 		subSelected ="#"+me.id+"Sub";
-		console.log("Here is selected sub menu:", subSelected);
 		$(subSelected).slideDown(800);	
 }
 function submenuItemClick (me) {
@@ -36,22 +33,14 @@ function submenuItemClick (me) {
 }
 
 function hideOthers(me) {
-	console.log("Here is me!:", me);
-	console.log("Here is me.id!:", me.id);
 	if (selectedContent !== me.id) {
 		$("."+selectedContent+"Content").hide(1000);
-		console.log("Here is what I'm trying to hide:", "."+selectedContent);
-		console.log("selectedContent was different!!!: ",selectedContent);
 	}
-	selectedContent = me.id;
-	console.log("Here is new selected Content: ",selectedContent);		
+	selectedContent = me.id;		
 }
 
 function bioClick(me) { // bind click event to all images
-		//$(this).toggleClass("polaroidSelected");
-		console.log("In bio click!. Here is selected: ",me);
-		
-		if (selectedBio !== $(me)){	
+			if (selectedBio !== $(me)){	
 			$(selectedBio).switchClass("polaroidSelected","polaroid",1000);
 			$(selectedBio).children(":first").switchClass('polaroidImgSelected', 'polaroidImg',1000);
 			$(selectedBio).next().hide(1000);
@@ -67,7 +56,6 @@ function bioClick(me) { // bind click event to all images
 				}
 			}
 		else {
-			console.log("I'm equal!!");
 			$(me).switchClass("polaroidSelected","polaroid",1000);
 			$(me).children(":first").switchClass('polaroidImgSelected', 'polaroidImg',1000);
 			$(me).next().hide(1000);
@@ -80,13 +68,10 @@ function bioClick(me) { // bind click event to all images
 
 
 $(document).ready(function() {
-	
 	$(".subMenu").hide(0);
 	$(".polaroid").click(function(){
 		var temp = "#"+this.id;
 		bioClick(temp)});
-			
-	
 	$(".menuHead, .subMenuItem").hover(function() {		
 		$(this).toggleClass("hoverOn");
 	});
@@ -117,7 +102,6 @@ $(document).ready(function() {
 	
 	// Click Handling For Menu Items
 	$(".menuHead").click(function() {
-			console.log("This is what 'this' is: ", this.id);
 			if (selected == null)
 				selected = this.id;
 			switch(this.id) {
@@ -173,7 +157,6 @@ $(document).ready(function() {
 			}});	
 			
 	$(".subMenuItem").click(function() {
-		console.log("Here is selected sub menu item:", this.id);
 		/* Check to see if another sub menu has been selected */
 		if (subSelectedItem== null) 
 			subSelectedItem= this.id;
