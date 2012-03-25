@@ -122,21 +122,25 @@ $(document).ready(function() {
 				selected = this.id;
 			switch(this.id) {
 				case "Home": 
+					console.log ("Home Us was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".HomeContent").show(1000);
 					break;
 				case "ContactUs": 
+					console.log ("Contact Us was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".ContactUsContent").show(1000);
 					break;
 				case "AboutUs": 
+					console.log ("About Us was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".AboutUsContent").show(1000);
 					break;
 				case "Bios": 
+					console.log ("Bios was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(selectedBio).switchClass("polaroidSelected","polaroid",1000);
@@ -147,26 +151,31 @@ $(document).ready(function() {
 					$(".BiosContent").show(1000);
 					break;
 				case "Videos": 
+					console.log ("Videos was clicked!");
 					//submenuHeadClick(this);
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".VideosContent").show(1000);
 					break;
 				case "Pictures": 
+					console.log ("Pictures was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".PicturesContent").show(1000);
 					break;
 				case "Reviews": 
+					console.log ("Reviews was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					$(".ReviewsContent").show(1000);
 					break;
 				case "News": 
+					console.log ("News was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					break;
 				case "Misc": 
+					console.log ("Misc was clicked!");
 					menuHeadClick(this);
 					hideOthers(this);
 					break;	
@@ -179,33 +188,90 @@ $(document).ready(function() {
 			subSelectedItem= this.id;
 		switch(this.id) {
 			case "Nicco": 
+				console.log ("Nicco was clicked! Trying to select Nicco Pic: ",this.id+"Pic" );
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "Alex": 
+				console.log ("Alex was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "Jesse": 
+				console.log ("Jesse was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "Fletcher": 
+				console.log ("Fletcher was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "Marina": 
+				console.log ("Marina was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "LiveShows": 
+				console.log ("Live Shows was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 			case "WebSketches": 
+				console.log ("Web Sketches was clicked!");
 				bioClick("#"+this.id+"Pic");
 				submenuItemClick(this);
 				break;
 		}});
 
 });
+
+
+/*switch(me.id){
+		case "HomeContent": 
+			console.log ("Home Us was clicked!");
+			menuHeadClick(this);
+			$(".HomeContent").show(1000);
+			break;
+		case "ContactContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "AboutContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "BiosContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "VideosContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "PicturesContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "ReviewsContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "NewsContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+		case "MiscContent": 
+			console.log ("Contact Us was clicked!");
+			menuHeadClick(this);
+			hideOthers(this);
+			break;
+	}
+ */
