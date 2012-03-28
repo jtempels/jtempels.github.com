@@ -54,7 +54,7 @@ body {
 	padding: 0px;
 }
 
-#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ReviewsContent {
+#innerContainer, .HomeContent, .AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ReviewsContent, .NewsContent {
 	
 	position:relative;
 	max-width:80%;
@@ -83,7 +83,7 @@ body {
 	max-width:90%;
 }
 
-.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ContactUsContent, .ReviewsContent {
+.AboutUsContent, .BiosContent, .VideosContent, .PicturesContent, .ContactUsContent, .ReviewsContent, .NewsContent {
 	float:left;
 	background-color:#FFF;
 	min-width:91%;
@@ -206,4 +206,9 @@ body {
 #innerContainer blockquote {
 	line-height:1em;
 	width:50%;
+}
+
+.bookBlurb {
+	margin-left:20px;
+	float:left;	
 }
