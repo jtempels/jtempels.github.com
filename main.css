@@ -13,13 +13,14 @@ body {
 .upcomingShow {
 	color:#F00;
 	font-style:!important;
+	line-height:1.5em;
 }
 
 
 #header {
 	font-size: 2em;
 	margin-left: 2.6em;
-	margin-top: .5em;
+	margin-top: .35em; 
 	margin-bottom: .15em;
 	font-family:"American Typewriter", "Courier New";
 	min-width:1000px;
